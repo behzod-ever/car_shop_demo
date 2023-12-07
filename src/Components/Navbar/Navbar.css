@@ -1,0 +1,45 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    padding: 12px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.icons i> *{
+    font-size: 25px;
+}
+
+.menu {
+    display: none;
+}
+
+@media screen and (max-width:767px){
+    .menu{
+        display: block;
+        font-size: 40px;
+    }
+    nav ul,
+    .tell{
+        display: none;
+    }
+}
